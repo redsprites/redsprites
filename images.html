@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="screen.css" media="screen">
+  <title> FuturoHouse </title>
+  <style>
+       #wrapper {  
+   margin-left: auto;
+   margin-right: auto;
+   background-color:#ffffff;
+    color: #000066;
+    display:grid;
+    grid-template:
+    "h "
+    "n "
+    "a"
+    "m"
+    "f" ;
+   }
+.w3-container li {
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+  width: auto;
+  border-bottom: 1px solid;
+}
+.w3-container{
+    text-align: center;
+}
+h5{
+    font-style: italic;
+    border-bottom: 5px solid;
+    background-color: #0D4970;
+    color:white ;
+    padding: 1.5% 10px;
+}
+a {
+    text-decoration: none;
+    color: #1672ce;
+}
+td{
+  padding: 5px;
+  margin: 5px;
+}
+main{
+  width: 80%;
+  margin: auto;
+}
+
+
+    @media (min-width: 600px){
+#wrapper {
+    grid-template:
+   " h   h "
+   " n   n "
+   " a   m "
+   " f   f "
+   / 20% 80% ;
+}
+
+*{
+    font-size: large;
+}
+
+}
+@media (min-width: 1024px) {
+  nav ul { display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap; }
+#wrapper { grid-template:
+            " h n n "
+            " a m m "
+            " f f f "
+            / 30% 35% 35% ;}
+
+*{
+    font-size: large;
+}
+#titlefirst{
+    font-size: xx-large;
+}
+ }
+ .w3-card-43{
+     border: 5px solid;
+     padding: 2%;
+ }
+aside{
+    
+    border-radius: 5px;
+    background-color: #0D4970;
+}
+aside ul{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    position: sticky;
+    top: 1rem;
+    padding-inline-start: 0px;
+}
+aside ul :hover{
+background-color: #ffffff;
+color: #a77878;   
+}
+
+aside ul :hover a{
+color: #000066;
+}
+aside :active a{
+  color: #a77878;
+  background-color:transparent;
+}
+
+aside ul li{
+  border-bottom: 3px solid white;
+    padding-top: 5%;
+}
+aside ul li a{
+    font-size: large;
+    color: aliceblue;
+}
+</style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <img id="futuro" src="images/logo (2).png" width=auto height="100px" alt="futuro">
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="bibliography.html">Bibliography</a></li>
+        <li><a href="about.html">About Us</a>
+          <ul>
+            <li><a href="ben.html">Benjamin Acuff</a></li>
+            <li><a href="arnav.html">Arnav Shah</a></li>
+            <li><a href="quay.html">Quay Robinson</a></li>
+            <li><a href="yoseph.html">Yoseph Shibiru</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <aside>
+        <ul>
+          <li><a href="resources.html">Resources</a></li>
+            
+            <li><a href="images.html">Gallery</a></li>
+            <li><a href="archive.html">Archives</a></li>
+        
+              <ul>
+      </aside>
+      <main>
+        <div id="title1">
+          <h5>Here are some images of futuro-houses taken around the world</h5>
+    </header>
+      <div class="w3-container" style="text-align:center;">
+      <div class="w3-card-43" style="margin:auto;border-radius:10px">
+      <div class="w3-container">
+          Our interest in the Futuro House quickly became our passion for the Futuro House and eventually, perhaps some might say, our obsession with the Futuro House. We have collected images that relate to the Futuro House in some way and put down some of them in this webpage. 
+        <br><br>
+          <div class="column" style="align-items: center;">
+          <img src="images/1.jpeg" alt="Futuro House 1" style="width:270px;height:270px;">
+          <img src="images/2.jpeg" alt="Futuro House 2" style="width:270px;height:270px;">
+          <img src="images/3.jpeg" alt="Futuro House 3" style="width:270px;height:270px;">
+          <img src="images/4.jpeg" alt="Futuro House 4" style="width:270px;height:270px;">
+         
+        <img src="images/5.jpeg" alt="Futuro House 5" style="width:270px;height:270px;">
+        <img src="images/6.jpeg" alt="Futuro House 6" style="width:270px;height:270px;">
+        <img src="images/7.jpeg" alt="Futuro House 7" style="width:270px;height:270px;">
+        <img src="images/8.jpeg" alt="Futuro House 8" style="width:270px;height:270px;"> 
+      
+          <img src="images/9.jpeg" alt="Futuro House 9" style="width:270px;height:270px;">
+          <img src="images/10.jpeg" alt="Futuro House 10" style="width:270px;height:270px;">
+          <img src="images/11.jpeg" alt="Futuro House 11" style="width:270px;height:270px;">
+          <img src="images/12.jpeg" alt="Futuro House 12" style="width:270px;height:270px;">
+        </div>
+      </div>
+         </div>
+      </main>
+      <footer>
+        <div id="cont1">
+          <div id="footer3">
+            <h3 id="signup">
+              SIGN UP
+              </h3>
+            <form action="/action_page.php">
+              <div class="container">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+              </div>
+              <div class="container">
+                <input type="submit" value="Subscribe">
+              </div>
+            </form>
+          </div>
+          <div id="footer2">
+            <h3 id="menutext">
+              MENU
+            </h3>
+            <ul id="menulst">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="bibliography.html">Bibliography</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+          </div>
+         
+              <div id="footer1">
+                <h5 id="follow">
+                  Follow us on Social media to get the latest news about Futuro Houses around the world.
+                </h5>
+                <ul id="iconlst">
+                  <li><ion-icon name="logo-twitter"></ion-icon></li>
+                  <li><ion-icon name="logo-facebook"></ion-icon></li>
+                  <li><ion-icon name="logo-instagram"></ion-icon></li>
+                  <li><ion-icon name="logo-youtube"></ion-icon></li>
+                  <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                </ul>
+              </div>
+              
+        </div>
+        <div id="cont2">
+          Copyright &copy; 2022 <a href="http://www.futuro-house.net/index.html">futuro-house.net</a>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+  </html>

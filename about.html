@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="screen.css" media="screen">
+  <title> FuturoHouse </title>
+  <style>
+    *{
+      font-size: large;
+    }
+    #wrapper {  
+   margin-left: auto;
+   margin-right: auto;
+   background-color:#ffffff;
+    color: #000066;
+    display:grid;
+    grid-template:
+    "h "
+    "n "
+    "m"
+    "a"
+    "f" ;
+   }
+   @media (min-width: 600px) {
+ #wrapper { 
+
+   grid-template:
+   " h   h "
+   " n   n "
+   " m   a "
+   " f   f "
+   / 60% 40% ;
+ }
+}
+@media (min-width: 1024px) {
+
+ #wrapper { grid-template:
+            " h n n "
+            " m m a "
+            " f f f "
+           / 30% 35% 35%; }
+}
+li a{
+  text-decoration: none;
+  list-style: none;
+  
+}
+ li{
+  list-style-type: none;
+  list-style-type: none;
+  text-align: center;
+  padding: 20px;
+}
+ </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <img id="futuro" src="images/logo (2).png" width=auto height="100px" alt="futuro">
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="bibliography.html">Bibliography</a></li>
+        <li><a href="about.html">About Us</a>
+          <ul>
+            <li><a href="ben.html">Benjamin Acuff</a></li>
+            <li><a href="arnav.html">Arnav Shah</a></li>
+            <li><a href="quay.html">Quay Robinson</a></li>
+            <li><a href="yoseph.html">Yoseph Shibiru</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+       <aside>
+        <h2><u>Class Information</u></h2>
+        <p>
+		We are currently doing a project for INF 286 - Introduction to Web Development.
+		This class is taught by Dr. Hongmei Wang. She is an amazing professor!
+		</p>
+        <h2><u>School Information</u></h2>
+    	<p>
+		We are currently attending Northern Kentucky University.
+		We are enrolled in the College Of Informatics.
+        </p>
+      </aside>
+      <main>
+      <h5><b>Hello Once Again Earthlings!</b></h5>
+      <div class="w3-container">
+        <div class="w3-card-43" style="margin:auto;border-radius:10px; padding-left: 30px; padding-right: 40px;">
+        <div class="w3-container">
+	  <h3><u>Meet Our Team:</u></h3>
+       
+		   Our team has been very dedicated to the project.
+		   We provide as much information as possible by working together.
+        <br>
+        <br>
+			You might know some of us, and maybe the others not as well.
+			Please feel free to go to each team members' page for more information!
+      <br>
+        <br>
+			When chosing our team, we carefully considered each of our strengths and weaknesses.
+			While we are all different in many ways, there is one thing that is the same between all of us.
+			We are all proud to be working together on this project!
+      <br>
+      <br>
+		<li id="listfont"><a href="ben.html">Benjamin Acuff</a></li>
+        <li id="listfont"><a href="quay.html">Quay Robinson</a></li>
+        <li id="listfont"><a href="arnav.html">Arnav Shah</a></li>
+        <li id="listfont"><a href="yoseph.html">Yoseph Shibiru</a></li><br>
+  </div></div>
+         <br><br> 
+      </main>
+      <footer>
+        <div id="cont1">
+          <div id="footer3">
+            <h3 id="signup">
+              SIGN UP
+              </h3>
+            <form action="/action_page.php">
+              <div class="container">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+              </div>
+              <div class="container">
+                <input type="submit" value="Subscribe">
+              </div>
+            </form>
+          </div>
+          <div id="footer2">
+            <h3 id="menutext">
+              MENU
+            </h3>
+            <ul id="menulst">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="bibliography.html">Bibliography</a></li>
+              <li><a href="about.html">About Us</a></li>
+            </ul>
+          </div>
+         
+              <div id="footer1">
+                <h5 id="follow">
+                  Follow us on Social media to get the latest news about Futuro Houses around the world.
+                </h5>
+                <ul id="iconlst">
+                  <li><ion-icon name="logo-twitter"></ion-icon></li>
+                  <li><ion-icon name="logo-facebook"></ion-icon></li>
+                  <li><ion-icon name="logo-instagram"></ion-icon></li>
+                  <li><ion-icon name="logo-youtube"></ion-icon></li>
+                  <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                </ul>
+              </div>
+              
+        </div>
+        <div id="cont2">
+          Copyright &copy; 2022 <a href="http://www.futuro-house.net/index.html">futuro-house.net</a>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+  </html>

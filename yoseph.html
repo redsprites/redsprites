@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="screen.css" media="screen">
+  <title> FuturoHouse </title>
+  <style>
+     #wrapper {  
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#ffffff;
+     color: #000066;
+     display:grid;
+     grid-template:
+     "h "
+     "n "
+     "m"
+     "a"
+     "f" ;
+    }
+    @media (min-width: 600px) {
+  #wrapper { 
+
+    grid-template:
+    " h   h "
+    " n   n "
+    " m   a "
+    " f   f "
+    / 60% 40% ;
+  }
+}
+@media (min-width: 1024px) {
+
+  #wrapper { grid-template:
+             " h n n "
+             " m m a "
+             " f f f "
+            / 30% 35% 35%; }
+ }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <img id="futuro" src="images/logo (2).png" width=auto height="100px" alt="futuro">
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="bibliography.html">Bibliography</a></li>
+        <li><a href="about.html">About Us</a>
+          <ul>
+            <li><a href="ben.html">Benjamin Acuff</a></li>
+            <li><a href="arnav.html">Arnav Shah</a></li>
+            <li><a href="quay.html">Quay Robinson</a></li>
+            <li><a href="yoseph.html">Yoseph Shibiru</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+       <aside>
+        <h2>Hobbies </h2>
+        <p>I like to play soccer and go biking around cincinnati.I also like to read non-fiction books and spend time with my friends</p>
+        <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
+        <h2>more about me</h2>
+    	  <p> I am a sophomore computer science major. I am an international student from Ethiopia. I enjoy calssical music and talking about the stars and the universe.I want to start my own
+        business in the future and be financially free.
+        </p>
+      </aside>
+      <main>
+        <h2><b>Yoseph Shibiru</b></h2>
+      <h2>In love with learning</h2>
+        <P id="essay">
+       Ever since I was a child, I was eager to learn about the natural order of my surroundings: how water transformed into electricity,
+       why the length of the days throughout the year was not the same, or how flies could happily roam on a 25 Km/hr moving bus.
+       Being raised in a small town did not confine my imagination. My days were spent searching for stories about anything that passed my gaze and well...inventing my own to those I couldn't find one.
+       My curiosity has led me to venture and branch out of my norm: from founding a space club in St. Raguel High school and meeting an astronaut, working as a salesman, and starting a freelance business. But over the years, my love and passion for learning and mastering new skills remained consistent.
+        </p>
+          <img src="images/bground.png" width="250" height="290" alt ="picture of Yoseph">
+      </main>
+      <footer>
+        <div id="cont1">
+          <div id="footer3">
+            <h3 id="signup">
+              SIGN UP
+              </h3>
+            <form action="/action_page.php">
+              <div class="container">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+              </div>
+              <div class="container">
+                <input type="submit" value="Subscribe">
+              </div>
+            </form>
+          </div>
+          <div id="footer2">
+            <h3 id="menutext">
+              MENU
+            </h3>
+            <ul id="menulst">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="bibliography.html">Bibliography</a></li>
+              <li><a href="about.html">About Us</a></li>
+            </ul>
+          </div>
+         
+              <div id="footer1">
+                <h5 id="follow">
+                  Follow us on Social media to get the latest news about Futuro Houses around the world.
+                </h5>
+                <ul id="iconlst">
+                  <li><ion-icon name="logo-twitter"></ion-icon></li>
+                  <li><ion-icon name="logo-facebook"></ion-icon></li>
+                  <li><ion-icon name="logo-instagram"></ion-icon></li>
+                  <li><ion-icon name="logo-youtube"></ion-icon></li>
+                  <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                </ul>
+              </div>
+              
+        </div>
+        <div id="cont2">
+          Copyright &copy; 2022 <a href="http://www.futuro-house.net/index.html">futuro-house.net</a>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+  </html>
