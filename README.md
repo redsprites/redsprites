@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Yoseph
-- 👀 I’m interested in programming and software development
-- 🌱 I’m currently learning C, Java, Flutter and SQL
+- 👀 I’m interested in software development and Entreprenureship.
+- 🌱 I’m currently learning Java and SQL
 - 💞️ I’m looking to collaborate on backend development projects
 - 📫 How to reach me shibiruy1@nku.edu
 <!---
