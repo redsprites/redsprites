@@ -9,7 +9,7 @@
 
 - 👯 I’m looking to collaborate on **any projects with signal processing**
 
-- 👨‍💻 All of my projects are available at [melkam.solutions](melkam.solutions)
+- 👨‍💻 Some of my projects are available at [melkam.solutions](https://redsprites.github.io/)
 
 - 💬 Ask me about **Hearing test and hearing aids**
 
