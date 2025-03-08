@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Yoseph</h1>
-<h3 align="center">I am computer science major and data science minor at NKU. I’m interested in software development and Entrepreneurship.</h3>
+<h3 align="center">I’m intersted in software development and Entrepreneurship.</h3>
 
 - 🌱 I’m currently learning **React, SpringBoot**
 
@@ -7,9 +7,6 @@
 
 - 👨‍💻 Some of my projects are available at [melkam.solutions](https://redsprites.github.io/)
 
-- 💬 Ask me about **Hearing test and hearing aids**
-
-- 📫 How to reach me **shibiruy1@nku.edu**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
